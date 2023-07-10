@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.header {
+    background: linear-gradient(135deg, #FF8F71 0%, #FF3E55 100%);
+    padding: 63px 1172px 497px 167px;
+    border-radius: 0px 0px 0px 100px;  
+}
+.top_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 108px;
+}
+/*Desktop*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 56px 24px 0px 24px;
+    z-index: 1;
+}
+.nav_items{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    z-index: 1;
+}
+.nav_items image{
+    position: absolute;
+    inset-block-start: 0%;
+    inset-inline-end: 0px;
+
+}
